@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+	
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+			
+		<ImageView 
+			android:id="@+id/selectPicImageView"
+			android:src="@drawable/ic_menu_add"
+			android:minWidth="80dp"
+			android:minHeight="80dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxWidth="200sp"
+			android:maxHeight="200sp"
+			android:adjustViewBounds="true"
+			android:layout_centerHorizontal="true" />
+			
+		<TextView
+			android:id="@+id/titleTextView"
+			android:text="@string/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@id/selectPicImageView" />
+			
+		<EditText
+			android:id="@+id/editImageTitle"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@id/titleTextView" />
+			
+		<TextView
+			android:id="@+id/descriptionTextView"
+			android:text="@string/author"
+			android:layout_marginTop="20dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@id/editImageTitle" />
+			
+		<EditText
+			android:id="@+id/descriptionArea"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:scrollbars="vertical"
+			android:layout_below="@id/descriptionTextView" />
+			
+		<Button
+			android:id="@+id/addButton"
+			android:text="@string/add"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/descriptionArea"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true" />
+	  
+	    
+	</RelativeLayout>
+</ScrollView>

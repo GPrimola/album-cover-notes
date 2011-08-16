@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emptyList">Empty List!</string>
+    <string name="addItem">Add Item</string>
+    <string name="info">Info</string>
+    <string name="selectPicture">Select Picture</string>
+    <string name="title">Title</string>
+    <string name="author">By</string>
+    <string name="add">Add</string>
+    <string name="refresh">Refresh</string>
+    <string name="deleteAll">Delete All</string>
+    <string name="touchHere">Touch Here</string>
+    <string name="null_title">The Title must be filled</string>
+    <string name="operation_succeeded">Operation Succeeded! You can add more!</string>
+    <string name="wait">Wait while list is being loaded...</string>
+    <string name="app_name">AlbumCoverNotes</string>
+</resources>
