@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emptyList">Lista vazia!</string>
+    <string name="addItem">Adicionar Item</string>
+    <string name="info">Info</string>
+    <string name="selectPicture">Selecionar Imagem</string>
+    <string name="title">Título</string>
+    <string name="author">Autor</string>
+    <string name="add">Adicionar</string>
+    <string name="refresh">Atualizar</string>
+    <string name="deleteAll">Limpar Tudo</string>
+    <string name="touchHere">Clique Aqui</string>
+    <string name="null_title">O Título não pode ser vazio</string>
+    <string name="operation_succeeded">Adicionado com Sucesso! Você pode adicionar mais!</string>
+    <string name="wait">Espere enquanto a lista é carregada...</string>
+    <string name="app_name">AlbumCoverNotes</string>
+</resources>
